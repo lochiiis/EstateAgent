@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 
 
 
-const Navigation = ({toggleFavoriteList}) => {
+const Navigation = () => {
 
 
     return(
@@ -22,8 +22,6 @@ const Navigation = ({toggleFavoriteList}) => {
                     <li><Link to="/properties">Search Properties</Link></li>
                     <li><Link to="/favorites">Favorites</Link></li>
                     
-                    
-                    <li onClick={toggleFavoriteList} style={{cursor:'pointer'}}>showList</li>
                 </ul>
                 
             </div>

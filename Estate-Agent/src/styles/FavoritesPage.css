@@ -25,17 +25,17 @@
 .remove-button{
     background-color: #810e0e;
     padding:10px 14px;
-    margin: 10px;
+    margin: 15px;
 
 }
 .remove-button:hover, .clear-favorites:hover{
-    background-color: #cf1414;
+    background-color: #bc1212;
 }
 
 .clear-favorites{
-    background-color: #ad1212;
-    padding:10px 14px;
-    margin: 10px;
+    background-color: #920e0e;
+    padding:8px 14px;
+    margin: 5px;
 
 }
 
@@ -58,6 +58,7 @@
 .favorite-button:focus{
     outline: none;
 }
+
   
   
   
@@ -74,7 +75,7 @@
     height: 100%;
     background-color: #edf5fc;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 15px;
     overflow-y: auto;
     z-index: 1000;
     transform: translateX(0); 
@@ -87,16 +88,16 @@
 
 .favorites-sidebar h2 {
     font-size: 1.5rem;
-    margin-top: 0;
-    color: #333;
+    color: #1a1a1a;
     text-align: center;
+    margin-bottom: 15px;
+    
 }
 
 .favorite-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin-top: 15px;
     padding: 10px;
     border: 1px solid #ddd;
@@ -119,15 +120,22 @@
     color: #333;
 }
 
+.favorites-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
 .close-button {
-    background-color: #b21c1c;
+    background-color: #c81414;
     padding: 8px 8px;
     font-size: 1rem;
-    margin-bottom: 20px;
 }
 
 .close-button:hover {
-    background-color: #ff4040;
+    background-color: #e21616;
 }
 
 .show-favorites-button {

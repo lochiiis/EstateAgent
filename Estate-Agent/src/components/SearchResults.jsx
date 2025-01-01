@@ -28,7 +28,10 @@ const SearchResults = () => {
     };
 
     const[showFavorites,setShowFavorites]=useState(false);
-    
+
+    const clearFavorites=()=> {
+        setFavorites([]);
+    };
 
 
 
@@ -121,7 +124,12 @@ const SearchResults = () => {
                 onDrop={handleDropFav}
                 onDragOver={handleDragOver}
             >
-                <button className='close-button' onClick={()=>setShowFavorites(false)}>close</button>
+                <div className='favorites-header'>
+                    <button onClick={clearFavorites}className='clear-favorites'>
+                    Clear All Favorites
+                    </button>
+                    <button className='close-button' onClick={()=>setShowFavorites(false)}>close</button>
+                </div>
                 <h2>Your Favorites</h2>
                 {favorites.map(favorite=>(
                     <div 
@@ -135,6 +143,7 @@ const SearchResults = () => {
                         <p>{favorite.title}</p>
                     </div>
                 ))}
+                
             </div>
         )}
         </>
