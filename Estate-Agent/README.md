@@ -1,8 +1,26 @@
-# React + Vite
+# Estate Agent Client-side Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+Create a responsive web application for property search using React. The application allows users to filter properties based on multiple criteria, view detailed property information, and manage a favorites list.
 
-Currently, two official plugins are available:
+### Key Features
+1. **Property Search**:
+   - Filter by type, price, bedrooms, date added, and postcode.
+   - Supports multiple simultaneous criteria.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. **Search Results**:
+   - Display properties with images, descriptions, and prices.
+   - Results link to individual property pages.
+
+3. **Property Details Page**:
+   - Large image, gallery, long description, floor plan, and Google Maps.
+
+4. **Favorites Management**:
+   - Save properties to a favorites list via drag-and-drop or a button.
+   - Remove properties or clear the favorites list.
+
+
+### JSON Data
+Include 7 properties with diverse attributes for testing search functionality.
+
+
