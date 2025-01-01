@@ -1,0 +1,174 @@
+[
+  {
+    "id": "1",
+    "type": "house",
+    "price": 750000,
+    "bedrooms": 4,
+    "dateAdded": "2024-03-15",
+    "postcode": "BR1 3EY",
+    "title": "Stunning 4 Bedroom Victorian House",
+    "shortDescription": "Beautiful Victorian property with original features and modern amenities",
+    "longDescription": "This exceptional Victorian house offers the perfect blend of period features and contemporary living. The property features high ceilings, original fireplaces, and a modern kitchen extension. The garden has been professionally landscaped and includes a patio perfect for entertaining.",
+    "mainImage": "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
+    "images": [
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+      "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d",
+      "https://images.unsplash.com/photo-1560185008-a33f5c7b1568",
+      "https://images.unsplash.com/photo-1560184897-ae75f418493e"
+    ],
+    "floorplan":"https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5"
+  },
+  {
+    "id": "2",
+    "type": "house",
+    "price": 680000,
+    "bedrooms": 3,
+    "dateAdded": "2024-03-08",
+    "postcode": "BR1 2AT",
+    "title": "Charming 3 Bedroom Cottage",
+    "shortDescription": "Cozy countryside cottage with modern upgrades",
+    "longDescription": "This charming cottage offers a taste of countryside living with modern comforts. The property features an open-plan kitchen/diner, a spacious living room with a wood-burning stove, and a beautiful garden with mature trees.",
+    "mainImage": "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+    "images": [
+      "https://images.unsplash.com/photo-1597091132352-0675f5fdb812",
+      "https://images.unsplash.com/photo-1507091967364-d82b9c6eae13",
+      "https://images.unsplash.com/photo-1527618236257-5a3d75b5b11e",
+      "https://images.unsplash.com/photo-1507754431303-e013a11991da",
+      "https://images.unsplash.com/photo-1560184430-cd9839b4f6e6",
+      "https://images.unsplash.com/photo-1512918370373-9c3c47899ebf"
+    ],
+    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5"
+  },
+  {
+    "id": "3",
+    "type": "flat",
+    "price": 350000,
+    "bedrooms": 1,
+    "dateAdded": "2024-02-20",
+    "postcode": "SE1 8RT",
+    "title": "Stylish 1 Bedroom Studio Flat",
+    "shortDescription": "Compact and modern studio perfect for city living",
+    "longDescription": "This studio flat is ideal for a first-time buyer or a young professional. It features a smart layout with a kitchenette, built-in storage, and a stylish bathroom. Conveniently located near transport links and city amenities.",
+    "mainImage": "https://images.unsplash.com/photo-1560184897-ae75f418493e",
+    "images": [
+      "https://images.unsplash.com/photo-1560184897-ae75f418493e",
+      "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d",
+      "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5"
+  },
+  {
+    "id": "4",
+    "type": "house",
+    "price": 1200000,
+    "bedrooms": 6,
+    "dateAdded": "2024-03-01",
+    "postcode": "NW3 5TH",
+    "title": "Luxury 6 Bedroom Detached Home",
+    "shortDescription": "Sprawling detached property with premium finishes",
+    "longDescription": "This grand six-bedroom property boasts a private driveway, state-of-the-art appliances, and a beautifully landscaped garden. Perfect for families seeking a spacious and luxurious home.",
+    "mainImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+    ],
+    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5"
+  },
+  {
+    "id": "5",
+    "type": "flat",
+    "price": 550000,
+    "bedrooms": 2,
+    "dateAdded": "2024-02-25",
+    "postcode": "W1T 4BL",
+    "title": "Modern 2 Bedroom Penthouse",
+    "shortDescription": "Stunning penthouse with panoramic city views",
+    "longDescription": "Located in the heart of London, this penthouse features an open-plan living area, high-end finishes, and a private terrace overlooking the city skyline. Secure underground parking included.",
+    "mainImage": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+    "images": [
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "https://images.unsplash.com/photo-1560185008-a33f5c7b1568",
+      "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1560184897-ae75f418493e",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+    ],
+    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5"
+  },
+  {
+    "id": "6",
+    "type": "house",
+    "price": 800000,
+    "bedrooms": 4,
+    "dateAdded": "2024-03-12",
+    "postcode": "SW7 3LX",
+    "title": "Elegant 4 Bedroom Townhouse",
+    "shortDescription": "Sophisticated townhouse in a prestigious location",
+    "longDescription": "This beautifully presented townhouse offers spacious living areas, a stylish kitchen, and four well-proportioned bedrooms. Located in a sought-after neighborhood, it also features a private garden and parking.",
+    "mainImage": "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1560185008-a33f5c7b1568",
+      "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d",
+      "https://images.unsplash.com/photo-1512918370373-9c3c47899ebf"
+    ],
+    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5"
+  },
+  {
+    "id": "7",
+    "type": "flat",
+    "price": 450000,
+    "bedrooms": 2,
+    "dateAdded": "2024-02-28",
+    "postcode": "E1 6AN",
+    "title": "Bright 2 Bedroom Apartment",
+    "shortDescription": "Well-lit apartment with modern interiors",
+    "longDescription": "A bright and spacious two-bedroom apartment featuring a large open-plan living area, modern kitchen, and a balcony overlooking the city. Ideal for professionals or small families.",
+    "mainImage": "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+    "images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1560185008-a33f5c7b1568",
+      "https://images.unsplash.com/photo-1560184897-ae75f418493e",
+      "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
+      "https://images.unsplash.com/photo-1512918370373-9c3c47899ebf"
+    ],
+    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5"
+  },
+  {
+    "id": "8",
+    "type": "house",
+    "price": 1100000,
+    "bedrooms": 5,
+    "dateAdded": "2024-02-15",
+    "postcode": "N1 3BR",
+    "title": "Exclusive 5 Bedroom Detached Home",
+    "shortDescription": "Impressive detached home in a quiet location",
+    "longDescription": "This stunning home boasts five double bedrooms, three reception rooms, and a designer kitchen. The property also features a large garden, a double garage, and a private driveway.",
+    "mainImage": "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+    "images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1560185008-a33f5c7b1568",
+      "https://images.unsplash.com/photo-1560184897-ae75f418493e",
+      "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
+      "https://images.unsplash.com/photo-1512918370373-9c3c47899ebf"
+    ],
+    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5"
+  }
+]
+
+
+  
+  

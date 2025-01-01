@@ -1,0 +1,142 @@
+/* favourites*/
+.favorites-container{
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fcfcfe;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.favProp-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px;
+}
+.favorites-container h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.remove-favorite{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.remove-button{
+    background-color: #810e0e;
+    padding:10px 14px;
+    margin: 10px;
+
+}
+.remove-button:hover, .clear-favorites:hover{
+    background-color: #cf1414;
+}
+
+.clear-favorites{
+    background-color: #ad1212;
+    padding:10px 14px;
+    margin: 10px;
+
+}
+
+.favorite-button{
+    position: absolute;
+    border: 1px solid #ffffff;
+    background-color: #e3e3e3;
+    top: 10px;
+    right: 10px;
+    border-radius:100%;
+    padding: 6px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.favorite-button:hover{
+    background-color:#cdcdcd;
+    scale: 1.1;
+}
+.favorite-button:focus{
+    outline: none;
+}
+  
+  
+  
+  
+  
+  
+
+/* favorites sidebar */
+.favorites-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #edf5fc;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 1000;
+    transform: translateX(0); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.favorites-sidebar.hidden {
+    transform: translateX(100%);
+}
+
+.favorites-sidebar h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.favorite-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-item img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.favorite-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.close-button {
+    background-color: #b21c1c;
+    padding: 8px 8px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.close-button:hover {
+    background-color: #ff4040;
+}
+
+.show-favorites-button {
+    background-color: #1462b5;
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 1rem;    
+}
+
+.show-favorites-button:hover {
+    background-color: #0f447c;
+}
