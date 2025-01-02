@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import propertiesData from '../data/properties.json';
 import { CTab, CTabContent, CTabList, CTabPanel, CTabs } from '@coreui/react'
 import PropertyGallery from '../components/PropertyGallery';
+import PropertyMap from '../components/PropertyMap';
+import '../styles/PropertyDetails.css';
 
 const PropertyDetails = () => {
     const { id } = useParams();
@@ -18,11 +20,13 @@ const PropertyDetails = () => {
         <>
             
             <div className='tab-container'>
-                <div className="property-main-image">
-                    <PropertyGallery mainImage={property.mainImage} images={property.images}  />
-                </div>
-                <div className="property-details">
-                    <h1>{property.title}</h1>
+                <div className="property-details-container">
+                    <div className="property-main-image">
+                        <PropertyGallery mainImage={property.mainImage} images={property.images}  />
+                    </div>
+                    <div className="property-details">
+                        <h1>{property.title}</h1>
+                    </div>
                 </div>
                 
                 <CTabs activeItemKey="description">
@@ -34,18 +38,22 @@ const PropertyDetails = () => {
 
                     <CTabContent>
 
-                        <CTabPanel className="" itemKey="description">
-                            <p>{property.longDescription}</p> 
+                        <CTabPanel  itemKey="description">
+                            <p className="property-description">{property.longDescription}</p> 
                         </CTabPanel>
 
 
-                        <CTabPanel className="" itemKey="floorplan">
+                        <CTabPanel itemKey="floorplan">
                             <img src={property.floorplan} alt="floorpan" className='floorplan' />
                         </CTabPanel>
 
 
-                        <CTabPanel className="" itemKey="location">
-                            loco
+                        <CTabPanel itemKey="location">
+                            <PropertyMap
+                                latitude={property.location.lat}
+                                longitude={property.location.lng}
+                                title={property.title}/>
+                        
                         </CTabPanel>
 
                         

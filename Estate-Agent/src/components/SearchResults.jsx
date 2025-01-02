@@ -4,8 +4,9 @@ import React, {useState} from 'react'
 import propertiesData from '../data/properties.json'
 import SearchForm from './SearchForm'
 import '../styles/Property.css'
+import PropertyCard from './PropertyCard'
 import {Link} from 'react-router-dom';
-import FavoritesButton from './FavoritesButton';
+;
 
 
 
@@ -31,6 +32,7 @@ const SearchResults = () => {
 
     const clearFavorites=()=> {
         setFavorites([]);
+        localStorage.removeItem('favorites');
     };
 
 
@@ -42,23 +44,19 @@ const SearchResults = () => {
     //filter properties based on search criteria
     const filtered=properties.filter(property=>{
         return(
-        (searchCriteria.type==='any' || property.type===searchCriteria.type) &&
+        (searchCriteria.type==='Any' || property.type===searchCriteria.type) &&
         (searchCriteria.minPrice==='' || property.price>=searchCriteria.minPrice) &&
         (searchCriteria.maxPrice==='' || property.price<=searchCriteria.maxPrice) &&
         (searchCriteria.minBedrooms==='' || property.bedrooms>=searchCriteria.minBedrooms) &&
         (searchCriteria.maxBedrooms==='' || property.bedrooms<=searchCriteria.maxBedrooms) &&
         (searchCriteria.dateAdded==='' || property.dateAdded===searchCriteria.dateAdded) &&
-        (searchCriteria.postcode==='' || property.postcode===searchCriteria.postcode)
+        (searchCriteria.district==='All' || property.location.district===searchCriteria.district)
         );
     });
     //update state with filtered properties
     setFilteredProperties(filtered);
     }; 
 
-    //drag and drop functionality
-    const handleDragFav=(event,property)=>{
-        event.dataTransfer.setData('propertyId',property.id);
-    };
 
     const handleDropFav=(event)=>{
         event.preventDefault();
@@ -99,23 +97,13 @@ const SearchResults = () => {
         
         <div className='properties-container'>
             {filteredProperties.map(property=>(
-            <div 
-                key={property.id}
-                className ='property'
-                draggable
-                onDragStart={(event)=>handleDragFav(event,property)}
-            >
-                <img src={property.mainImage} alt={property.title} className='property-image' loading='lazy'/>
-                
-                <FavoritesButton
-                isFavorite={favorites.some((fav)=>fav.id===property.id)}
-                onClickFav={()=>handleFavorite(property)}
+                <PropertyCard
+                    key={property.id}
+                    property={property}
+                    isFavorite={favorites.some((fav)=>fav.id===property.id)}
+                    onClickFav={()=>handleFavorite(property)}
+                    
                 />
-
-                <h3><Link to={`/propertyDetails/${property.id}`}>{property.title}</Link></h3>
-                <p>{property.shortDescription}</p>
-                <p>Rs? {property.price}</p>
-            </div>
             ))}
         </div>
         {showFavorites && (
@@ -124,25 +112,42 @@ const SearchResults = () => {
                 onDrop={handleDropFav}
                 onDragOver={handleDragOver}
             >
+
                 <div className='favorites-header'>
                     <button onClick={clearFavorites}className='clear-favorites'>
                     Clear All Favorites
                     </button>
                     <button className='close-button' onClick={()=>setShowFavorites(false)}>close</button>
                 </div>
-                <h2>Your Favorites</h2>
-                {favorites.map(favorite=>(
-                    <div 
-                        key={favorite.id} 
-                        className='favorite-item'
-                        draggable
-                        onDragStart={(event)=>handleDragFav(event,favorite)}
-                    >
+                <div className='favorites-drag-instructions'>
+                    <p>Drag here to remove</p>
+                </div>
 
-                        <img src={favorite.mainImage} alt={favorite.title} className='property-image' loading='lazy'/>
-                        <p>{favorite.title}</p>
+                <h2>Your Favorites</h2>
+
+                {favorites.length === 0 ? (
+                    <p>Drag properties that suit your taste here</p>
+                ) : (
+                    <div>
+                        {favorites.map(favorite=>(
+
+                            <PropertyCard
+                                key={favorite.id}
+                                property={favorite}
+                                isFavorite={true}
+                                onClickFav={()=>handleFavorite(favorite)}
+                            />
+
+
+                        ))}
                     </div>
-                ))}
+                          
+                
+                    
+        )}
+            <div>
+            <Link to="/favorites"><button className='show-favorites-button'>View all favorites</button></Link>
+            </div>
                 
             </div>
         )}

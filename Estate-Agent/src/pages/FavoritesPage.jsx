@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/FavoritesPage.css';
+import PropertyCard from '../components/PropertyCard';
 
 const FavoritesPage = () => {
     const [favorites, setFavorites] = useState(() => {
@@ -11,11 +12,13 @@ const FavoritesPage = () => {
     }, [favorites]);
 
     const removeFavorite = (id) => {
-        setFavorites(favorites.filter(fav => fav.id !== id));
+        const updatedFavorites = favorites.filter(fav => fav.id !== id);
+        setFavorites(updatedFavorites);
     };
 
     const clearFavorites = () => {
         setFavorites([]);
+        localStorage.removeItem('favorites');
     };
 
     return (
@@ -27,17 +30,14 @@ const FavoritesPage = () => {
                 <>
                     <div className='favProp-container'>
                         {favorites.map(favorite => (
-                            <div key={favorite.id} className='property'>
-                                <img src={favorite.mainImage} alt={favorite.title} className='property-image' />
-                                <div className='favorite-details'>
-                                    <h3>{favorite.title}</h3>
-                                    <p>{favorite.shortDescription}</p>
-                                    <p>Rs {favorite.price}</p>
-                                    <div className='remove-favorite'>
-                                        <button className='remove-button' onClick={() => removeFavorite(favorite.id)}>Remove</button>
-                                    </div>
-                                </div>
-                            </div>
+                            
+                            <PropertyCard
+                                key={favorite.id}
+                                property={favorite}
+                                isFavorite={true}
+                                onClickFav={() => removeFavorite(favorite.id)}
+                            />
+                    
                         ))}
                     </div>
                     <button onClick={clearFavorites} className='clear-favorites'>

@@ -20,7 +20,7 @@ const Navigation = () => {
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/properties">Search Properties</Link></li>
-                    <li><Link to="/favorites">Favorites</Link></li>
+                    {/* <li><Link to="/favorites">Favorites</Link></li> */}
                     
                 </ul>
                 

@@ -2,40 +2,47 @@ import React,{useState} from 'react';
 import '../styles/Property.css';
 import { House,DollarSign,Bed,CalendarSearch,Search,MapPinHouse } from 'lucide-react';
 
+import { CDropdown, CDropdownItem, CDropdownMenu, CDropdownToggle } from '@coreui/react'
 
 
 
 //Form to enter search criteria
 const SearchForm=({onSearch})=>{ 
     //setup state for search criteria
-    const [type,setType]=useState('any');
+    const [type,setType]=useState('Any');
     const [minPrice,setMinPrice]=useState('');
     const [maxPrice,setMaxPrice]=useState('');
     const [minBedrooms,setMinBedrooms]=useState('');
     const [maxBedrooms,setMaxBedrooms]=useState('');
     const [dateAdded,setDateAdded]=useState('');
-    const [postcode,setPostcode]=useState('');
+    const [district,setDistrict]=useState('All');
 
     const handleSubmit=(e)=>{
         e.preventDefault();
         //call onSearch function with search criteria
-        onSearch({type,minPrice,maxPrice,minBedrooms,maxBedrooms,dateAdded,postcode});
+        onSearch({type,minPrice,maxPrice,minBedrooms,maxBedrooms,dateAdded,district});
     };
 
 
   return (
     <>
       <form onSubmit={handleSubmit} className='form-container'>
+        
         <div className='search-criteria'>
            <label><House className='icon'/> Property Type</label>
-            <select 
-            value={type} 
-            onChange={e=>setType(e.target.value)} 
-            >
-                <option value="any">Any</option>
-                <option value="house">House</option>
-                <option value="flat">Flat</option>
-            </select> 
+
+            <CDropdown>
+                <CDropdownToggle caret className='type-dropdown'>
+                    {type}
+                </CDropdownToggle>
+                <CDropdownMenu>
+                    <CDropdownItem onClick={()=>setType('Any')}>Any</CDropdownItem>
+                    <CDropdownItem onClick={()=>setType('House')}>House</CDropdownItem>
+                    <CDropdownItem onClick={()=>setType('Apartment')}>Apartment</CDropdownItem>
+                    <CDropdownItem onClick={()=>setType('Villa')}>Villa</CDropdownItem>
+                </CDropdownMenu>
+            </CDropdown>
+
         </div>
 
 
@@ -97,14 +104,20 @@ const SearchForm=({onSearch})=>{
 
 
         <div className='search-criteria'>
-            <label><MapPinHouse className='icon'/>Postcode Area</label>
-            <input 
-            type="text"
-            name="postcode"
-            placeholder="e.g. BR1, NW1"
-            value={postcode}
-            onChange={e=>setPostcode(e.target.value)}
-            />
+            <label><MapPinHouse className='icon'/>District</label>
+ 
+                    
+            <CDropdown>
+                <CDropdownToggle caret className='district-dropdown'>   
+                    {district}
+                </CDropdownToggle>
+                <CDropdownMenu >
+                    <CDropdownItem onClick={()=>setDistrict('All')}>All</CDropdownItem>
+                    <CDropdownItem onClick={()=>setDistrict('Colombo')}>Colombo</CDropdownItem>
+                    <CDropdownItem onClick={()=>setDistrict('Negambo')}>Negambo</CDropdownItem>
+                    <CDropdownItem onClick={()=>setDistrict('Gampaha')}>Gampaha</CDropdownItem>
+                </CDropdownMenu>
+            </CDropdown>
             
 
         </div>
