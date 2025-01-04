@@ -115,7 +115,7 @@ const SearchResults = () => {
                     <button onClick={clearFavorites}className='clear-favorites'>
                     Clear All Favorites
                     </button>
-                    <button className='close-button' onClick={()=>setShowFavorites(false)}>close</button>
+                    <button className='close-button' onClick={()=>setShowFavorites(false)}>Close</button>
                 </div>
                 <div className='favorites-drag-instructions'>
                     <p>Drag here to remove</p>

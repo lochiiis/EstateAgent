@@ -2,28 +2,28 @@
   {
     "id": "1",
     "type": "Villa",
-    "price": 87898,
-    "bedrooms": 1,
+    "price": 280550,
+    "bedrooms": 3,
     "dateAdded": "2024-01-4",
-    "title": "The Garden Pavilion",
-    "shortDescription": "A stylish 1-bedroom villa with a private pool, garden views, and modern amenities in Colombo.One-Bedroom Villa with Private Pool",
-    "longDescription": "The Garden Pavilion is a contemporary 1-bedroom villa available for rent in Colombo, just 4.8 miles from Bambalapitiya Railway Station. This air-conditioned villa features a private pool and direct access to a balcony with beautiful garden views. The villa is well-equipped with a fully functional kitchen, including an oven, microwave, and toaster, along with a cable flat-screen TV and a spacious bathroom with a bath and hair dryer. Bed linen, towels, and daily room service are provided for added convenience. Guests can relax on the terrace with pool views or explore the surrounding area, with packed lunches available for day trips. Additional amenities include free WiFi, free private parking, a 24-hour front desk, and car rental services. Ideally located near R Premadasa Stadium (5 miles), Khan Clock Tower (5.5 miles), and only 1.9 miles from Diyawanna Oya Seaplane Base Airport, The Garden Pavilion is an ideal home for those seeking comfort, privacy, and easy access to local landmarks.",
-    "mainImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/582298174.jpg?k=7dabc90b6ac81d50cc12049d0d45724e151da12b5ac405a58d0d193641c39cc2&o=&hp=1",
+    "title": "Mountain Breeze Residence",
+    "shortDescription": "A spacious 3-bedroom villa with mountain views, a balcony, and modern amenities, located near Kandy city center.",
+    "longDescription": "Mountain Breeze Residence is a beautifully designed 3-bedroom villa available for rent in Kandy. Situated just 1.4 miles from the city center, this property offers stunning mountain views, a private balcony, and a terrace for relaxation. The air-conditioned villa features a fully equipped kitchen, a private entrance, and free WiFi. With ample living space and modern amenities, including free private parking, it’s an excellent choice for long-term renters seeking comfort and convenience. Located 1.9 miles from Kandy City Center Shopping Mall and 2.4 miles from Bogambara Stadium, the villa provides easy access to local attractions while offering a peaceful retreat.",
+    "mainImage": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/584988300.jpg?k=d831c075ec3918715fb77fc7a568d6eec98d86b1e117df10826ef5608b0e23cd",
     "images": [
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/582298174.jpg?k=7dabc90b6ac81d50cc12049d0d45724e151da12b5ac405a58d0d193641c39cc2&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582298166.jpg?k=4e58b18d1c446f5d5c5daca1435353a3eb62e58337b416b4faadfa0db2d21fe9&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582298120.jpg?k=75667d3f27215fa0bd77f6e435527fdb6e02ec1479e3e6d868a7741eda20e2b2&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582298160.jpg?k=95972b9b7a2d950088c2a0829430ae664826fb61c1230a3020f616ab2e3b7f5d&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582298180.jpg?k=01a3076e8f3f7742681c486f1705722b84e69c03c1cd04594a2b5c655581650b&o=&hp=1",
-      "https://fosterandreed.com/wp-content/uploads/2022/12/Foster-Reed-The-Garden-Pavilion-02.jpg",
-      "https://fosterandreed.com/wp-content/uploads/2022/12/Foster-Reed-The-Garden-Pavilion-01.jpg"
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/584988300.jpg?k=d831c075ec3918715fb77fc7a568d6eec98d86b1e117df10826ef5608b0e23cd&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/584988168.jpg?k=dd73bc68269dfa00025237e8048081788f5f2c0a4eacf52959455dbbfee8ffdc&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/584988246.jpg?k=dea21717d361ce15ddd774c062b88865a323dcf3d4fa984705b0c7b074f6e8be&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/584988171.jpg?k=733a6ce4962da6ef2bf2a82596152c1c427e886accc72bb81bbda8a81c391eee&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/584988179.jpg?k=a5e2a6d455f7887e739f75e2fade63a94d89ae015bba036a1bc3074c086aa742&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/584988237.jpg?k=0a10cf206f38fcb9304ffb581f8aac80c40df52ea83a49d4dd41fcd09fe87552&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/584988110.jpg?k=335f580d20466e0cdc86e7f6ccd7a2edb269f1c3b668f711405bc4b1f4ec29f1&o=&hp=1"
     ],
-    "floorplan":"https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5",
+    "floorplan":"https://cdn.houseplansservices.com/product/1v9oi2o1hda9d2p8sqmh20ffoh/w800x533.jpg?v=19",
     "location":{
-      "Address":"253 Gemunu Mawatha, 10100 Colombo, Sri Lanka" ,
-      "district": "Colombo",
-      "lat": 6.882415,
-      "lng": 79.889660
+      "Address":"50/8 Uplands Road, 20000 Kandy, Sri Lanka" ,
+      "district": "Kandy",
+      "lat": 7.308211,
+      "lng": 80.639377
     }
     
   
@@ -31,7 +31,7 @@
   {
     "id": "2",
     "type": "House",
-    "price": 38150,
+    "price": 358150,
     "bedrooms": 4,
     "dateAdded": "2024-12-08",
     "title": "Bali Golden",
@@ -47,7 +47,7 @@
       "https://cf.bstatic.com/xdata/images/hotel/max1280x900/618026302.jpg?k=92fd8aa708f45f516a4b98cec3aa8c6d68f2ab7e655323a2cfd4e376ee5a52f5&o=&hp=1",
       "https://cf.bstatic.com/xdata/images/hotel/max1280x900/618026255.jpg?k=10f05488282898fee14189a1753e1f8e370b6951c61e403cabc931338a2e7eab&o=&hp=1"
     ],
-    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5",
+    "floorplan": "https://cdn.houseplansservices.com/product/bdnibob54ora1ruii0tse2tina/w800x533.png?v=17",
     "location":{
       "Address":"231 Kakulama Waththa Yakgaha Walahanduwa, 80000 Galle, Sri Lanka" ,
       "district": "Galle",
@@ -58,7 +58,7 @@
   {
     "id": "3",
     "type": "Apartment",
-    "price": 43463,
+    "price": 243463,
     "bedrooms": 3,
     "dateAdded": "2023-12-20",
     "title": "The Five Residences",
@@ -74,7 +74,7 @@
       "https://cf.bstatic.com/xdata/images/hotel/max1280x900/486560763.jpg?k=014543f663abeac21ba60dea587ce0111a9ba0a96d29934b6a7a824a1b77bd54&o=&hp=10",
       "https://cf.bstatic.com/xdata/images/hotel/max1280x900/486559960.jpg?k=f2adf51bd72142de5399486d7e6a3fb8536ce2cfe682e8d2b7f9d881a36b5ddb&o=&hp=1"
     ],
-    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5",
+    "floorplan": "https://cdn.houseplansservices.com/product/9dovmuk0dmflveqja3gdhgoq9d/w800x533.jpg?v=22",
     "location":{
       "Address":"No: 27/1B, 1st Lane, Makuluwa, Galle, Sri Lanka" ,
       "district": "Galle",
@@ -85,34 +85,34 @@
   {
     "id": "4",
     "type": "Villa",
-    "price": 110830,
-    "bedrooms": 6,
+    "price": 156230,
+    "bedrooms": 2,
     "dateAdded": "2024-10-30",
-    "title": "Fairy Cottage Kandy",
-    "shortDescription": "A luxurious 6-bedroom villa with a rooftop pool, wellness options, and stunning mountain views",
-    "longDescription": "Fairy Cottage Kandy offers a spacious and luxurious getaway just 0.8 miles from Kandy Royal Botanic Gardens and a short drive from key attractions like Kandy Train Station (3.8 miles) and Bogambara Stadium (4.2 miles). This 6-bedroom villa features a private rooftop pool, free WiFi, and private parking. Guests can enjoy mountain views from the terrace, relax in the hot tub, or take advantage of beauty services and yoga classes. The villa includes a fully equipped kitchen, living area, and 6 bathrooms with walk-in showers and a hot tub. Additional amenities include a shared kitchen, a 24-hour front desk, and currency exchange. Guests can explore the area through cycling and walking tours, with bike and car rentals available. A continental, full English/Irish, or Asian breakfast is served daily, and the villa also features a garden and a kids' pool for family-friendly relaxation.",
-    "mainImage": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/434187140.jpg?k=dd4ecff20d8e5e5d0c60e6776a84153ffb19ea5b07da5e6c47ebd204f7e34f93&o=&hp=1",
+    "title": "Villa Dream Nest",
+    "shortDescription": "A charming 2-bedroom villa with a balcony, garden views, and modern amenities, perfect for comfortable long-term rental.",
+    "longDescription": "This cozy 2-bedroom villa offers a serene living space with a balcony and a terrace overlooking a lush garden. The air-conditioned villa features a well-equipped kitchen with a toaster, fridge, and kitchenware, as well as a comfortable seating area with a fireplace. The bathroom is fitted with a bidet and includes bathrobes for added luxury. Modern conveniences such as a satellite flat-screen TV ensure a comfortable stay. The villa also offers sightseeing tours and easy access to both bicycle and car rental services, making it an ideal choice for those looking for a peaceful and convenient rental home.",
+    "mainImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/632350581.jpg?k=dcbecc3a45e897b9f9a95d206fe314670aff7e0c917123a29fadf6f9f2fc7966&o=",
     "images": [
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/434187140.jpg?k=dd4ecff20d8e5e5d0c60e6776a84153ffb19ea5b07da5e6c47ebd204f7e34f93&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/434187040.jpg?k=93edc46d62ed3139a29bcf8ae3d91ed54da7eba4a65a4cbe1534a11bddce99ff&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/434184127.jpg?k=65a6a472795a11b29c1d2e5055524e3539931f4e825f233b15db6371be3dbc37&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/434184134.jpg?k=4ac0ff145b6b5073fce892c196e8266e1467cf72282d031a100315dc67c9378e&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/434103041.jpg?k=9c39ed928e0a765d5588281653f2b0952a8847ab47275fc54496d7b1ed0d00a6&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/434185720.jpg?k=40925405d80790f7b6f33fbbd4be1a419753444540a4f56b8ec3dc43ab050960&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/434186720.jpg?k=32430ad55feaedecd6720b08c636c7108ad171596cce7c2d42f6ed0f419e2822&o=&hp=1"
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/632350581.jpg?k=dcbecc3a45e897b9f9a95d206fe314670aff7e0c917123a29fadf6f9f2fc7966&o",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/632350605.jpg?k=57f47e6dfa99d25597684c76e96447a446e3a845124df988b95f279e4cef7c31&o",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/632350626.jpg?k=edd48264af0977944165dcfe7553f896623c0647b9896230c9cd236ccd8c554d&o",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/632350599.jpg?k=0d40567ad8792da29de7199b55befff005008db639737b664d4321258a468fae&o",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/632350596.jpg?k=8a78bb7e41579ad5db567bb6ae3192fda1ca0268f9f5f75d0821451d6255b4e5&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/632350597.jpg?k=eef51fecce5208c523857a8f5259076fb2edb35113bb303c7f26a3ab99eefc05&o",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/632350621.jpg?k=f828204a6bc8495efcc077cab5c2532dacf832d159f83b6fcbccfede9a28bf5f&o=&hp=1"
     ],
-    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5",
+    "floorplan": "https://cdn.houseplansservices.com/product/bhcni22g61e0jmsgndv8ssdtj2/w800x533.gif?v=23",
     "location":{
-      "Address":"Kenhinda Road, Kandy, Sri Lanka" ,
-      "district": "Kandy",
-      "lat": 7.267234,
-      "lng": 80.590941
+      "Address":"Mihiripenna Meegahawaththa Road, 80600 Unawatuna, Sri Lanka" ,
+      "district": "Galle",
+      "lat": 6.008157,
+      "lng": 80.254078
     }
   },
   {
     "id": "5",
     "type": "House",
-    "price": 40970,
+    "price": 140970,
     "bedrooms": 2,
     "dateAdded": "2024-02-15",
     "title": "The Hide",
@@ -128,7 +128,7 @@
       "https://cf.bstatic.com/xdata/images/hotel/max1280x900/629283070.jpg?k=d338e9c31244af74176f51bf26f8a1b124a0ff1131198bfbb668eb241a780af4&o=&hp=1",
       "https://cf.bstatic.com/xdata/images/hotel/max1280x900/629363452.jpg?k=85c9e8d52e9bfa93883afb210685334d1a6e0e5e594859ecd146798eee5c95ca&o=&hp=1"
     ],
-    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5",
+    "floorplan": "https://cdn.houseplansservices.com/product/bkpahmf2kl8hrqomekohuhub8o/w1024.gif?v=23",
     "location":{
       "Address":"941/22 6th lane Kotte road, 10100 Sri Jayewardenepura Kotte, Sri Lanka" ,
       "district": "Colombo",
@@ -139,7 +139,7 @@
   {
     "id": "6",
     "type": "House",
-    "price": 68116,
+    "price": 368116,
     "bedrooms": 3,
     "dateAdded": "2025-01-03",
     "title": "The Asher Retreat",
@@ -155,7 +155,7 @@
       "https://cf.bstatic.com/xdata/images/hotel/max1280x900/489201453.jpg?k=1ecfa256ece2fef49f7d92836db1cf58b1f5c6f8d4dd79ca157888f4018d3ae9&o=&hp=1",
       "https://cf.bstatic.com/xdata/images/hotel/max1280x900/583977188.jpg?k=7b434f4f6ab3fafe2bf99486a96eef979b50aeae956d39fe414c5361da44a971&o=&hp=1"
     ],
-    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5",
+    "floorplan": "https://cdn.houseplansservices.com/product/ada66bdd99ec305971da2688d521644bba48b75fbc1ac5ec517514f2123bbf8d/w1024.png?v=10",
     "location":{
       "Address":"Galaha Road, Kandy, Sri Lanka" ,
       "district": "Kandy",
@@ -165,35 +165,35 @@
   },
   {
     "id": "7",
-    "type": "Villa",
-    "price": 136975,
-    "bedrooms": 4,
+    "type": "House",
+    "price": 189175,
+    "bedrooms": 2,
     "dateAdded": "2025-01-02",
-    "title": "Wirdana Resort",
-    "shortDescription": "Relax and rejuvenate, featuring a saltwater infinity pool, spa, and easy access to Galle's attractions",
-    "longDescription": "Nestled in the serene Galle District, Wirdana Resort & Spa offers a luxurious retreat just 4.3 miles from Galle International Cricket Stadium and Galle Fort. The resort boasts a year-round outdoor saltwater infinity pool, a spa center, and a sun terrace for ultimate relaxation. Accommodations include units with private bathrooms, some featuring seating or dining areas, and fully equipped kitchens. Guests can savor meals at the on-site restaurant or enjoy packed lunch options. Activities like diving and fishing are available nearby, making it a perfect destination for adventure and leisure. Towels and free toiletries are provided, ensuring a comfortable stay.",
-    "mainImage": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/115641866.jpg?k=ade0119ccca3a8563dc061daa6acd4257a9c570c1d70f877612806a8d08e702b&o=&hp=1",
+    "title": "Home From Home",
+    "shortDescription": "A modern guest house with air-conditioned rooms, private bathrooms, and garden views, located near Bambalapitiya and Diyawanna Oya",
+    "longDescription": "This guest house offers comfortable accommodations with air-conditioned rooms, free WiFi, and free private parking. Each room is equipped with a desk, a kettle, and a private bathroom with a shower and a hair dryer. Certain units also feature a fully equipped kitchen, ideal for longer stays. Guests can enjoy garden views from the terrace and relax in a peaceful setting. Bed linen and towels are provided for convenience. Conveniently located 5 miles from Bambalapitiya Railway Station and 7.2 miles from R Premadasa Stadium, the guest house is just 3.7 miles from Diyawanna Oya Seaplane Base Airport, making it a practical and serene choice for residents or long-term renters.",
+    "mainImage": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/469863361.jpg?k=f80ac4520c9fe2df21a7268ef20398d7bf1147c69084130ca4e4fabda580bcaa&o=&hp=1",
     "images": [
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/115641866.jpg?k=ade0119ccca3a8563dc061daa6acd4257a9c570c1d70f877612806a8d08e702b&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/517645522.jpg?k=86caea1d42e422427b2b6146d9070be0529439f7903195a470704e2972d7ccac&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/115641878.jpg?k=174b9fbc6d730e958ffa59a5fb475c7b5017db89b3a50951dd618108b54af31d&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/517645323.jpg?k=32ffe17d283f2cde62125ec09aa16351e6ade3cfd10fbb6d06c27c208814db4c&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/517644543.jpg?k=fd17d8c6680aa3f27e4930d694010a11cff332148280e76965332cc7c28de37c&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/517645866.jpg?k=1efe2d64ce3ab174ba34e9fde0ab55cd74d268b76575d2b7d0f011ed6ca506c8&o=&hp=1",
-      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/517644640.jpg?k=80f393d52310ed59d22e7f17d151ccf353c0cc98a2216a9c94a7d50dfe3b0f02&o=&hp=1"
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/469863361.jpg?k=f80ac4520c9fe2df21a7268ef20398d7bf1147c69084130ca4e4fabda580bcaa&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/469861450.jpg?k=e3e6c610cd308a93cd262efb9c925de552068ffcba4ad4265ba7f2ae4ac134b0&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543370365.jpg?k=9c2ede69759951517314243dda5011049170abbabf2ea60d0d140b04038f646e&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543370364.jpg?k=0e1aa1c1cce5d65ebcab16a04283013839ec9bac400b45e866d7b87c5780f3d6&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543370370.jpg?k=e8e3f48a4a538dfc0d44f679448c407aa7864184f33dbc92d577db83fe9604cd&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/469861891.jpg?k=c40c6118b350a94d74167440790f37b9934dee5b179fe46adfa75fe4b3fb009e&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543371236.jpg?k=a301201cbbebf48efc0dd305327b3b9c53e1002f747af20778d8a79cb46a9131&o=&hp=1"
     ],
-    "floorplan": "https://cdn.houseplansservices.com/product/m75f1rpfq9o3in8cjh60tp7pvm/w800x533.jpg?v=5",
+    "floorplan": "https://cdn.houseplansservices.com/product/k0bdv8bvf011jdu6hv4iiid2ve/w1024.gif?v=15",
     "location":{
-      "Address":"Gingahawila Waththa, Kadurupe, Boossa  Galle" ,
-      "district": "Galle",
-      "lat": 6.071052,
-      "lng": 80.172390
+      "Address":"42 1/1 Rupasiri Mawatha, Mirihana, 10250 Nugegoda, Sri Lanka" ,
+      "district": "Colombo",
+      "lat": 6.872,
+      "lng": 79.90260
     }
   },
   {
     "id": "8",
     "type": "Apartment",
-    "price": 36126,
+    "price": 236126,
     "bedrooms": 2,
     "dateAdded": "2024-12-25",
     "title": "Embassy Suites",

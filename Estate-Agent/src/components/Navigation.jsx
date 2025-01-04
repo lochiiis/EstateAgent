@@ -14,13 +14,13 @@ const Navigation = () => {
         <>
         <nav className='navbar'>
             <div className='navbar-logo'>
-                <img src={logo} alt="Logo" />
+                <img src={logo} alt="Logo" height="40" width="100"/>
             </div>
             <div className='navbar-links'>
                 <ul>
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/properties">Search Properties</Link></li>
-                    {/* <li><Link to="/favorites">Favorites</Link></li> */}
+                    <li><Link to="/properties">Properties</Link></li>
+                    <li><Link to="/favorites">Favorites</Link></li>
                     
                 </ul>
                 

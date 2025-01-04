@@ -4,7 +4,7 @@
   max-width: 90%;
   margin: 40px auto;
   padding: 20px;
-  background: #ffffff;
+  background: #fafafd;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -17,7 +17,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
 
 .search-criteria label {
@@ -27,42 +26,23 @@
   display: flex;
   align-items: center;
   gap: 5px;
-
 }
 
 
 
 /*style for dropdown*/
 .district-dropdown,.type-dropdown{
-  border:1px solid #ddd;
+  border:1px solid #d2c2e8;
   color: #585858;
 }
 
 
 /* Input group for Price Range */
-.input-group {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+.input-group { 
   gap: 0.5rem; 
-
-}
-
-input,select{
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  font-size: 14px;
-  outline: none;
-  transition: border-color 0.3s;
 }
 
 
-.search-criteria input:focus,
-.search-criteria select:focus{
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
-}
 
 .submit-button {
   display: flex;
@@ -102,15 +82,13 @@ input,select{
   position: relative;
 }
 .property {
-  
-  background: #ffffff; 
+  background: #f5f5ff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s ease;
   margin-bottom: 10px;
   border: 1px solid #e0e0e0;
-
 }
 
 .property:hover {
@@ -127,6 +105,7 @@ input,select{
 
 .property-details{
   padding: 15px;
+
 }
 
 .property-title {

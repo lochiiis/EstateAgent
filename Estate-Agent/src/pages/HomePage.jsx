@@ -7,7 +7,7 @@ const HomePage=()=> {
 
    
   <div className="welcome-page">      
-    <img src="https://images.unsplash.com/photo-1526000130-b9ea509bfbf3" className="home-back" />
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_1280.jpg" className="home-back" />
 
       <div className="welcome-content">
         <h1>Welcome to Property Finder</h1>
@@ -15,12 +15,9 @@ const HomePage=()=> {
           Discover your dream home! Search, view, and save your favorite properties with ease.
         </p>
         <div className="welcome-buttons">
-          <Link to="/properties" className="btn primary-btn">
-            Start Searching
-          </Link>
-          <Link to="/favorites" className="btn secondary-btn">
-            View Favorites
-          </Link>
+          <button><Link to="/properties">Start Searching</Link></button>
+          <button><Link to="/favorites">View Favorites</Link></button>
+          
         </div>
       </div>
     </div>

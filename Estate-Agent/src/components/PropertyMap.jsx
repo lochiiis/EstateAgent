@@ -6,7 +6,7 @@ const PropertyMap = ({ latitude, longitude }) => {
 
     return (
         <div>
-            <div style={{ width: '100%', height: 'auto', margin: '5%' }}>
+            <div style={{ width: '100%', height: 'auto', margin: '2%' }}>
                 <iframe
                     width="90%"
                     height="500"

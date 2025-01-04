@@ -48,7 +48,8 @@ const PropertyDetails = () => {
                         </div>
                         <div className='price-container'>
                             <Banknote className='icon'/>
-                            <span>{formatPrice(property.price)}</span>   
+                            <span>{formatPrice(property.price)}</span>
+                            <span> Upwards</span>   
                         </div>
 
                                     
