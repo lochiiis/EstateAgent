@@ -17,18 +17,8 @@
     text-align: center;
     padding-top: 20px;
 }
-.remove-favorite{
-    display: flex;
-    justify-content: center;
-    align-items:flex-end;
-}
-.remove-button{
-    background-color: #810e0e;
-    padding:10px 14px;
-    margin: 15px;
 
-}
-.remove-button:hover, .clear-favorites:hover{
+.clear-favorites:hover{
     background-color: #bc1212;
 }
 
@@ -42,7 +32,7 @@
 .favorite-button{
     position: absolute;
     border: 1px solid #dcdcdc;
-    background-color: #e3e3e3;
+    background-color: #edededd0;
     top: 10px;
     right: 10px;
     border-radius:100%;

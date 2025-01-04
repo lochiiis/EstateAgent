@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import '../styles/Property.css';
-import { House,DollarSign,Bed,CalendarSearch,Search,MapPinHouse } from 'lucide-react';
+import { House,Banknote,Bed,CalendarSearch,Search,MapPinHouse } from 'lucide-react';
 
 import { CDropdown, CDropdownItem, CDropdownMenu, CDropdownToggle } from '@coreui/react'
 
@@ -47,7 +47,7 @@ const SearchForm=({onSearch})=>{
 
 
         <div className='search-criteria'>
-            <label><DollarSign className='icon'/>Price Range</label>
+            <label><Banknote className='icon'/>Price Range</label>
             <div className='input-group'>
                 <input 
                 type="number" 
@@ -55,6 +55,7 @@ const SearchForm=({onSearch})=>{
                 placeholder="Min Price"
                 value={minPrice} 
                 onChange={e=>setMinPrice(e.target.value)}
+                min="1"
                 />
                 <input
                 type="number"
@@ -62,6 +63,8 @@ const SearchForm=({onSearch})=>{
                 placeholder="Max Price"
                 value={maxPrice}
                 onChange={e=>setMaxPrice(e.target.value)}
+                min="1"
+                
                 />  
             </div>
             
@@ -114,8 +117,8 @@ const SearchForm=({onSearch})=>{
                 <CDropdownMenu >
                     <CDropdownItem onClick={()=>setDistrict('All')}>All</CDropdownItem>
                     <CDropdownItem onClick={()=>setDistrict('Colombo')}>Colombo</CDropdownItem>
-                    <CDropdownItem onClick={()=>setDistrict('Negambo')}>Negambo</CDropdownItem>
-                    <CDropdownItem onClick={()=>setDistrict('Gampaha')}>Gampaha</CDropdownItem>
+                    <CDropdownItem onClick={()=>setDistrict('Galle')}>Galle</CDropdownItem>
+                    <CDropdownItem onClick={()=>setDistrict('Kandy')}>Kandy</CDropdownItem>
                 </CDropdownMenu>
             </CDropdown>
             

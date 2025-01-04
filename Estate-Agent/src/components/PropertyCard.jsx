@@ -4,6 +4,9 @@ import FavoritesButton from "./FavoritesButton";
 
 
 const PropertyCard=({property,isFavorite,onClickFav})=>{
+    const formatPrice=(price)=>{
+        return 'LKR. '+price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    };
 
     
     return(
@@ -26,10 +29,11 @@ const PropertyCard=({property,isFavorite,onClickFav})=>{
                 <p className='short-description'>{property.shortDescription}</p>
                 <div className="property-features">
                     <span className='bedrooms'>{property.bedrooms} Bedrooms</span>
+                    <span className='type'>{property.type}</span>
                     <span className='district'>{property.location.district}</span>
                 </div>
 
-                <p className='price'>LKR {property.price}</p> 
+                <p className='price'>{formatPrice(property.price)}</p> 
 
             </div>
 

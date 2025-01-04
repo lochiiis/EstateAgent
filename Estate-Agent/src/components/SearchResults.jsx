@@ -72,8 +72,6 @@ const SearchResults = () => {
                 handleFavorite(propertyToAdd);
             }
         }
-
-
         
     };
 

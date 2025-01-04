@@ -4,7 +4,7 @@
   max-width: 90%;
   margin: 40px auto;
   padding: 20px;
-  background: #fcfcfe;
+  background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -95,7 +95,6 @@ input,select{
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   padding: 50px;
-  background-color: #f8f9fa; 
 }
 
 /* Styling for individual property cards */
@@ -104,7 +103,7 @@ input,select{
 }
 .property {
   
-  background: #fdfeff; 
+  background: #ffffff; 
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -136,12 +135,12 @@ input,select{
   font-weight: 700;
 }
 .property-title a {
-  color: #0e277a;
+  color: #3450dc;
   text-decoration: none;
 }
 
 .property h3 a:hover {
-  color: #0077cc; 
+  color: #105383; 
   text-decoration: none;
 }
 .short-description {
@@ -154,9 +153,12 @@ input,select{
   justify-content: space-between;
   margin-bottom: 10px; 
 }
-.bedrooms, .district {
+.bedrooms, .district,.type{
   font-size: 0.9rem;
-  color: #4b4b4b; 
+  color: #242424; 
+  background-color: #c1d4ff37;
+  padding: 2px 10px;
+  border-radius: 5px;
 
 }
 
@@ -165,7 +167,7 @@ p.price {
   margin-top: 5px;
   font-weight: 600;
   color: #000000; 
-  background-color: #d6eaff;
+  background-color: #d6ddff;
   padding: 5px 15px;
   border-radius: 5px;
   display: inline-block;
@@ -174,14 +176,6 @@ p.price {
 
 
 
-.tab-item{
-  background-color: rgb(86, 90, 148);
-}
-
-.tab-item.active {
-  background-color: #005dc1  !important; /*use important to override CoreUI styles*/
-  color: #ffffff !important; 
-}
 
 
 
