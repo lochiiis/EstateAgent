@@ -1,7 +1,6 @@
-// property gallery in details
-
 import { useState } from "react";
 
+//property gallery component to display in each individual property page
 const PropertyGallery = ({mainImage,images}) => {
 
     
@@ -11,7 +10,6 @@ const PropertyGallery = ({mainImage,images}) => {
             setSelectedImage(image);
         }
     
-
         return(
             <div className="property-images">
                 <div className="large-image">

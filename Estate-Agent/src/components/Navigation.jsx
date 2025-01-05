@@ -1,10 +1,7 @@
 import React from 'react';
-import logo from '../assets/icons/logo1.png';
+import logo from '../assets/icons/logo3.png';
 import '../styles/HomePage.css';
 import {Link} from 'react-router-dom';
-
-
-
 
 
 const Navigation = () => {
@@ -14,7 +11,8 @@ const Navigation = () => {
         <>
         <nav className='navbar'>
             <div className='navbar-logo'>
-                <img src={logo} alt="Logo" height="40" width="100"/>
+                <img src={logo} alt="Logo" height="40" width="50"/>
+                <h4>Dwellingz.</h4>
             </div>
             <div className='navbar-links'>
                 <ul>

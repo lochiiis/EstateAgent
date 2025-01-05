@@ -1,13 +1,13 @@
 /* favourites*/
 .favorites-container{
     max-width: 1200px;
-    margin: 40px auto;
-    background-color: #fcfcfe;
+    margin: 8% auto;
+    background-color: #fafafd;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-.favProp-container{
+.favPage-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
@@ -129,9 +129,9 @@
 }
 
 .show-favorites-button {
-    background-color: #1462b5;
+    background:linear-gradient(135deg,#2482e6, #093581b3);
     padding: 10px 15px;
-    margin: 10px;
+    margin: 30px 0 0 50px;
     font-size: 1rem;    
 }
 
@@ -148,4 +148,15 @@
     font-size: 16px;;
     color: #272727;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    .favorites-sidebar {
+        width: 40%;
+    }
+    .show-favorites-button {
+        margin: 30px 0 0 0;
+    }
+    
 }

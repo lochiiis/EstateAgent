@@ -7,6 +7,8 @@ import PropertyMap from '../components/PropertyMap';
 import '../styles/PropertyDetails.css';
 import { Banknote, BedDoubleIcon, House, MapPinHouse } from 'lucide-react';
 
+
+//detail of each property
 const PropertyDetails = () => {
     const { id } = useParams();
     const property = propertiesData.find(prop => prop.id === id);

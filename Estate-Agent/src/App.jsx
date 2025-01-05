@@ -8,23 +8,15 @@ import HomePage from './pages/HomePage';
 import PropertyDetails from './pages/PropertyDetails';
 import Favorite from './pages/FavoritesPage';
 
-import { DndProvider } from 'react-dnd';
-import { HTML5Backend } from 'react-dnd-html5-backend';
-
-
 
 
 
 const App =() => {
 
-
-  
   return (
-
-
     <>
 
-    <DndProvider backend={HTML5Backend}>
+    
       <BrowserRouter>
         <Navigation/>
         <Routes>
@@ -34,7 +26,7 @@ const App =() => {
           <Route path="/propertyDetails/:id" element={<PropertyDetails />} /> 
         </Routes>
       </BrowserRouter>
-    </DndProvider>
+    
 
     </>
   );

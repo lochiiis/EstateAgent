@@ -1,6 +1,6 @@
 .tab-container{
     max-width: 1100px;
-    margin: 2% auto;
+    margin: 8% auto;
     padding: 20px;
     background-color: #f1f2ff;
     border-radius: 10px;
@@ -122,4 +122,35 @@
 .tab-item.active {
 background-color: #005dc1  !important; /*use important to override CoreUI styles*/
 color: #ffffff !important; 
+}
+
+
+@media (max-width: 768px) {
+    .tab-container {
+        max-width: 90%;
+        margin:calc(50vh - 250px) auto;
+        padding: 15px;
+        background-color: #f1f2ff;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .property-images {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .thumbnail-container {
+        flex-direction: row;
+        gap: 5px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;  
+    }
+
+    .floorplan{
+        max-width: 100%;
+        height: auto;
+    }
+    
+
 }

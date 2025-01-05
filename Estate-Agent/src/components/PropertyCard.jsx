@@ -2,8 +2,10 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import FavoritesButton from "./FavoritesButton";
 
-
+//property card component displayed in the search page
 const PropertyCard=({property,isFavorite,onClickFav})=>{
+
+    //convert price to LKR format and leave commas
     const formatPrice=(price)=>{
         return 'LKR. '+price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     };

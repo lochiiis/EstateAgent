@@ -1,24 +1,22 @@
-//Results page displaying PropertyList
-
 import React, {useState} from 'react'
 import propertiesData from '../data/properties.json'
 import SearchForm from './SearchForm'
 import '../styles/Property.css'
 import PropertyCard from './PropertyCard'
-import {Link} from 'react-router-dom';
-;
 
-
-
+//displays search results based on search criteria
 const SearchResults = () => {
 
     const[properties]=useState(propertiesData);
     const [filteredProperties, setFilteredProperties]=useState(propertiesData);
+
+
     const [favorites, setFavorites]=useState(()=>{
         //load favorites from local storage
         return JSON.parse(localStorage.getItem('favorites')) || [];
     });
 
+    //function to add or remove property from favorites
     const handleFavorite=(property)=>{
         const updatedFavorites= favorites.some((fav)=>fav.id===property.id) 
         ? favorites.filter((fav)=>fav.id!==property.id)
@@ -34,9 +32,6 @@ const SearchResults = () => {
         setFavorites([]);
         localStorage.removeItem('favorites');
     };
-
-
-
 
 
 
@@ -82,18 +77,21 @@ const SearchResults = () => {
 
 
 
-
     return(
         <>
+        <div className='search-container'>
+            <SearchForm onSearch={handleSearch}/>
 
-        <SearchForm onSearch={handleSearch}/>
+
+        </div>
 
         <button className="show-favorites-button" onClick={() => setShowFavorites(true)}>
             Show Favorites
-        </button>
-        
+        </button>        
         
         <div className='properties-container'>
+            {filteredProperties.length===0 && <h4>No properties found for your preference :/</h4>}
+
             {filteredProperties.map(property=>(
                 <PropertyCard
                     key={property.id}
@@ -104,6 +102,9 @@ const SearchResults = () => {
                 />
             ))}
         </div>
+
+
+        {/* display favorites sidebar */}
         {showFavorites && (
             <div 
                 className={`favorites-sidebar ${showFavorites ? '' : 'hidden'}`}
@@ -112,11 +113,14 @@ const SearchResults = () => {
             >
 
                 <div className='favorites-header'>
+
                     <button onClick={clearFavorites}className='clear-favorites'>
                     Clear All Favorites
                     </button>
+
                     <button className='close-button' onClick={()=>setShowFavorites(false)}>Close</button>
                 </div>
+
                 <div className='favorites-drag-instructions'>
                     <p>Drag here to remove</p>
                 </div>
@@ -126,6 +130,7 @@ const SearchResults = () => {
                 {favorites.length === 0 ? (
                     <p>Drag properties that suit your taste here</p>
                 ) : (
+
                     <div>
                         {favorites.map(favorite=>(
 
@@ -139,16 +144,13 @@ const SearchResults = () => {
 
                         ))}
                     </div>
-                          
                 
-                    
-        )}
-            <div>
-            <Link to="/favorites"><button className='show-favorites-button'>View all favorites</button></Link>
-            </div>
+                )}
+
                 
             </div>
         )}
+
         </>
 
     );

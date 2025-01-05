@@ -1,15 +1,26 @@
 /* Property.css */
+.search-container {
+  position: relative;
+  height: 500px;
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_1280.jpg' );
+  background-size:cover;
+  background-position:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
 .form-container {
   width: 1200px;
   max-width: 90%;
-  margin: 40px auto;
+  margin: 0 auto;
   padding: 20px;
   background: #fafafd;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 40px; 
 }
 
 .search-criteria {
@@ -49,7 +60,7 @@
   justify-content:center;
   gap: 10px;
   max-width:60%;
-  background: #2a5eac;
+  background:linear-gradient(135deg,#2482e6, #093581b3);
   padding: 12px;  
   font-size: 16px;
   margin-top: 10%;
@@ -80,15 +91,17 @@
 /* Styling for individual property cards */
 .property-image-container {
   position: relative;
+  
 }
 .property {
-  background: #f5f5ff;
+  background: #f6f9fd;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s ease;
   margin-bottom: 10px;
   border: 1px solid #e0e0e0;
+  
 }
 
 .property:hover {
@@ -105,7 +118,6 @@
 
 .property-details{
   padding: 15px;
-
 }
 
 .property-title {
@@ -131,6 +143,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px; 
+
 }
 .bedrooms, .district,.type{
   font-size: 0.9rem;
@@ -155,56 +168,74 @@ p.price {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsive design */
 @media (max-width: 768px) {
-  .properties-container {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust for smaller screens */
+
+  /* Navbar adjustments */
+  .navbar {
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      padding: 5px; 
   }
-
-  .property h3 {
-    font-size: 1rem; /* Reduce font size for smaller devices */
+  .navbar-logo h4 {
+      font-size: 1rem;
   }
-
-  .property p {
-    font-size: 0.85rem;
+  .navbar-links ul {
+      gap: 10px;
   }
-}
-
-
-
-@media (max-width: 800px) {
-  .search-criteria {
-    flex: 1 1 100%;
+  .navbar-links a {
+      font-size: 12px;
   }
-
+  /* Search container */
+  .search-container {
+    height: auto;
+    padding: 20px;
+    background-size: cover;
+  }
   .form-container {
-    padding: 15px;
+    margin-top: calc(50vh - 250px);
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
   }
-
+  .search-criteria {
+    flex: 1 1 auto;
+  }
   .submit-button {
-    width: 100%;
-    justify-content: center;
+      max-width: 100%;
+      margin-top: 20px;
+      
   }
+    /* Properties container */
+    .properties-container {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      padding: 20px;
+      
+    }
+    .property {
+      margin: 0 auto;
+    }
+  
+  
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

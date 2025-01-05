@@ -1,6 +1,6 @@
-// PropertyMap.js
 import React from 'react';
 
+//displays the location of the property on a map
 const PropertyMap = ({ latitude, longitude }) => {
     const src = `https://maps.google.com/maps?q=${latitude},${longitude}&t=&z=16&ie=UTF8&iwloc=&output=embed`;
 

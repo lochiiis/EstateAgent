@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../styles/FavoritesPage.css';
 import PropertyCard from '../components/PropertyCard';
 
+//include all the favorites
 const FavoritesPage = () => {
     const [favorites, setFavorites] = useState(() => {
         return JSON.parse(localStorage.getItem('favorites')) || [];
@@ -28,7 +29,7 @@ const FavoritesPage = () => {
                 <p>No favorite properties yet!</p>
             ) : (
                 <>
-                    <div className='favProp-container'>
+                    <div className='favPage-container'>
                         {favorites.map(favorite => (
                             
                             <PropertyCard
